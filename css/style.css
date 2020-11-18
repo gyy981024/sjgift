@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+}
+/* 登录页 */
+.lzxw-phone-login{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 5.7rem;
+    box-sizing: border-box;
+}
+/* 登录页背景 */
+.lzxw-phone-login .lzxw-phone-login-back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.lzxw-phone-login .lzxw-phone-login-back img{
+    width: 100%;
+    height: 100%;
+}
+/* 登录信息 */
+.lzxw-phone-login .lzxw-phone-login-information{
+    width: 4rem;
+    margin: 0 auto;
+}
+.lzxw-phone-login .lzxw-phone-login-information .lzxw-phone-login-i-name{
+    width: 100%;
+    height: 0.55rem;
+    background: #ffffff;
+    border: 1px solid #b1b1b1;
+    padding:0 0.18rem;
+    box-sizing: border-box;
+    margin-bottom: 0.25rem;
+}
+.lzxw-phone-login .lzxw-phone-login-information .lzxw-phone-login-i-name img{
+    width: 0.25rem;
+    height: 0.27rem;
+    float: left;
+    margin-top:0.115rem;
+}
+.lzxw-phone-login .lzxw-phone-login-information .lzxw-phone-login-i-name input{
+    float: right;
+    width: 3.2rem;
+    height:0.45rem;
+    font-size: 0.26rem;
+    vertical-align: top;
+    line-height: 0.5rem;
+    border: none;
+    outline:none;
+}
+.lzxw-phone-login .lzxw-phone-login-information .lzxw-phone-login-i-phone{
+    width: 100%;
+    height: 0.55rem;
+    background: #ffffff;
+    border: 1px solid #b1b1b1;
+    padding:0 0.18rem;
+    box-sizing: border-box;
+}
+.lzxw-phone-login .lzxw-phone-login-information .lzxw-phone-login-i-phone img{
+    width: 0.25rem;
+    height: 0.25rem;
+    float: left;
+    margin-top:0.125rem;
+}
+.lzxw-phone-login .lzxw-phone-login-information .lzxw-phone-login-i-phone input{
+    float: right;
+    width: 3.2rem;
+    height:0.45rem;
+    font-size: 0.26rem;
+    line-height: 0.5rem;
+    vertical-align: top;
+    border: none;
+    outline:none;
+}
+.lzxw-phone-login .lzxw-phone-login-information .lzxw-phone-login-i-button{
+    width: 100%;
+    height: 0.6rem;
+    background: #ea7f00;
+    border: none;
+    font-size: 0.28rem;
+    color: #ffffff;
+    outline:none;
+    border-radius: 0.1rem;
+}
+.lzxw-phone-login .lzxw-phone-login-information .lzxw-phone-login-i-button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* 头部 */
+.lzxw-p-achieven-top{
+    width: 100%;
+    height: 1rem;
+    background: #db1716;
+    position: relative;
+}
+.lzxw-p-achieven-top .title{
+    width: 100%;
+    height: 100%;
+    line-height: 1rem;
+    font-size: 0.40rem;
+    color: #ffffff;
+    text-align: center;
+}
+.lzxw-p-achieven-top .return{
+    width: 0.15rem;
+    height: 0.31rem;
+    position: absolute;
+    top:0.345rem;
+    left:0.3rem
+}
+.lzxw-p-achieven-top .return img{
+    width: 100%;
+    height: 100%;
+}
+/* 成绩 */
+.lzxw-p-achieven{
+    width: 100%;
+    padding:0 0.55rem;
+    box-sizing: border-box;
+    padding-top: 0.8rem;
+}
+.lzxw-p-achieven .lzxw-p-a-count{
+    width: 100%;
+    height: 8.5rem;
+    background: #ffffff;
+    border-radius: 0.3rem;
+    padding:0 0.5rem;
+    position: relative;
+    z-index: -5;
+    box-sizing: border-box;
+}
+.lzxw-p-achieven .lzxw-p-a-count .result{
+    width: 100%;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    font-size: 0.32rem;
+    color: #c6c6c6;
+}
+.lzxw-p-achieven .lzxw-p-a-count .result span{
+    color: #373232;
+    margin-left: 0.1rem;
+}
+.lzxw-p-achieven .lzxw-p-a-count .score{
+    width: 100%;
+    height: 4rem;
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 0.3rem;
+}
+.lzxw-p-achieven .lzxw-p-a-count .score .score-back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.lzxw-p-achieven .lzxw-p-a-count .score .score-back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.lzxw-p-achieven .lzxw-p-a-count .score .score-word{
+    width: 100%;
+    font-size: 0.3rem;
+    text-align: center;
+    color: #ffb9a2;
+    padding-top: 0.8rem;
+}
+.lzxw-p-achieven .lzxw-p-a-count .score .score-number{
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0.1rem;
+}
+.lzxw-p-achieven .lzxw-p-a-count .determine{
+    width: 4.9rem;
+    height: 0.9rem;
+    margin: 0 auto;
+    margin-bottom: 0.25rem;
+}
+.lzxw-p-achieven .lzxw-p-a-count .determine button{
+    width: 100%;
+    height: 100%;
+    background: #db1716;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    outline:none;
+    font-size:0.36rem;
+    border-radius: 0.2rem;
+}
+/* 底部 */
+.lzxw-p-achieven-bottom{
+    width: 100%;
+    height: 1.3rem;
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+}
+.lzxw-p-achieven-bottom li{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 0;
+}
+.lzxw-p-achieven-bottom li a{
+    font-size: 0;
+}
+.lzxw-p-achieven-bottom li img{
+    width: 0.46rem;
+    height: 0.48rem;
+    margin-top: 0.2rem;
+}
+.lzxw-p-achieven-bottom li p{
+    width: 100%;
+    height: 0.55rem;
+    line-height: 0.55rem;
+    font-size: 0.28rem;
+    color: #636363;
+}
+.lzxw-p-achieven-bottom li .active{
+    color: #b20000;
+}
+/* 答题 */
+.lzxw-p-answer{
+    width: 100%;
+    padding:0 0.55rem;
+    box-sizing: border-box;
+    padding-top: 0.8rem;
+}
+.lzxw-p-answer .lzxw-p-a-count{
+    width: 100%;
+    min-height: 8.5rem;
+    background: #ffffff;
+    border-radius: 0.3rem;
+    padding:0 0.5rem;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 1.1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.6rem;
+}
+.lzxw-p-answer .lzxw-p-a-count .lzxw-p-a-c-title{
+    width: 2.92rem;
+    height: 1.1rem;
+    position: absolute;
+    top:-0.21rem;left:1.9rem;
+    background: url(../wapimages/title-back.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #ffffff;
+    line-height: 0.85rem;
+}
+.lzxw-p-answer .lzxw-p-a-count .subject{
+    width: 100%;
+    font-size: 0.36rem;
+    text-align: left;
+    color: #000000;
+}
+.lzxw-p-answer .lzxw-p-a-count .option{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+.lzxw-p-answer .lzxw-p-a-count .option li{
+    width: 100%;
+    min-height: 1rem;
+    background: #f9f9f9;
+    border-radius: 0.15rem;
+    margin-top: 0.2rem;
+    padding: 0.2rem 0.25rem;
+    box-sizing: border-box;
+}
+.lzxw-p-answer .lzxw-p-a-count .option li .tb{
+    width: 0.65rem;
+    height: 0.65rem;
+    background: #313131;
+    border-radius: 50%;
+    float: left;
+    font-size: 0.42rem;
+    line-height: 0.65rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0.16rem;
+}
+.lzxw-p-answer .lzxw-p-a-count .option li input{
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+    margin-top: 0.1rem;
+}
+.lzxw-p-answer .lzxw-p-a-count .option li label{
+    float: right;
+    width: 88%;
+    /* height: 100%; */
+    line-height:0.6rem;
+    font-size: 0.38rem;
+    color: #3f3c3d;
+}
+.lzxw-p-answer .lzxw-p-a-count .option .active{
+    background: #fdf3f4;
+}
+.lzxw-p-answer .lzxw-p-a-count .option .active .tb{
+    background: #db1716;
+    color: #ffffff;
+}
+.lzxw-p-answer .lzxw-p-a-count .next{
+    width: 100%;
+    height: 1rem;
+    background: #db1716;
+    color:#ffffff;
+    border:none;
+    outline:none;
+    font-size: 0.38rem;
+    border-radius: 0.2rem;
+}
+@media only screen and (min-height:811px){
+    .lzxw-phone-login{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding-top: 7rem;
+        box-sizing: border-box;
+    }
+}
+
+.showmsg{font-size: 0.42rem;line-height: 0.75rem;text-align: center;margin-top:0.20rem;margin-bottom:0.20rem;}
+.showmsg img{margin:auto auto;margin-bottom:0.20rem;margin-top:0.30rem;text-align:center;display:block;}
+.cheng{ min-height:350px; padding-top:40px; line-height:40px; text-align:center; font-size: 0.42rem;line-height: 0.65rem;text-align: center;}
+
+
+.showmsgred{font-size: 0.42rem;line-height: 0.75rem;font-weight:bold;text-align: left;margin-top:0.20rem;margin-bottom:0.20rem;color:#ff0000;}

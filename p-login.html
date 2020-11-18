@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/compatible.js"></script>
+    <style>
+        body,html{
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<!-- 登录页 -->
+    <div class="lzxw-phone-login">
+        <!-- 登录页背景 -->
+        <div class="lzxw-phone-login-back">
+            <img src="images/p-login.jpg" alt="">
+        </div>
+        <!-- 登录信息 -->
+        <div class="lzxw-phone-login-information">
+            <!-- 姓名 -->
+            <div class="lzxw-phone-login-i-name">
+                <img src="images/name.png" alt="">
+                <input type="text" placeholder="" autofocus>
+            </div>
+            <!-- 电话 -->
+            <div class="lzxw-phone-login-i-phone">
+                <img src="images/phone.png" alt="">
+                <input type="text" placeholder="" autofocus>
+            </div>
+            <!-- 登录按钮 -->
+            <form>
+                <button class="lzxw-phone-login-i-button"><a href="p-answer.html">登录</a></button>
+            </form>
+        </div>
+    </div>
+
+
+<script>
+
+    $('input').on('click',function(){
+        var target = this;
+        setTimeout(function{
+            target.scrollIntoView(true);
+        },100);
+    });
+</script>
+</body>
+</html>
